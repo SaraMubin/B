@@ -1,24 +1,20 @@
  *{
     margin: 0;
     padding: 0;
-     box-sizing: border-box; 
-     
+     box-sizing: border-box;     
  }  
   
-header
- { 
+header{
       width:100%;
     border-bottom: 1px solid; 
     margin: 0;
   } 
 
-.font-open-sans 
- {
+.font-open-sans {
   font-family: open-sans; 
 }   
 
-.nevbar
-{
+.nevbar{
     width: 1140px;
     height: 92px;
     display: flex; 
@@ -57,8 +53,8 @@ li
     justify-content: space-between;
     align-items: center;
     border:none;
-    padding: 12px 16px;
-    border-radius: 10px;
+  padding: 12px 16px;
+border-radius: 10px;
 font-size: 15px;
 font-weight: bold;
 color: white;
@@ -73,8 +69,8 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat; 
 }
- #about .about-content
- {
+
+ #about .about-content{
      width:60%;
     max-width: 1140px;
     margin: 0 auto;
@@ -83,32 +79,26 @@ background-repeat: no-repeat;
     padding: 131px 156px;
  }
 
-  #about .about-content .early
- {
+  #about .about-content .early{
     padding:8px 12px ;
     border-radius: 20px;
     background-color:white;
     color: #30b868;
     font-weight: 700;
  }
- #about .about-content .txt1
- {
+
+ #about .about-content .txt1{
   color:white;
     font-size: 50px;
-    
-
  }
 
- #about .about-content .txt2
- {
+ #about .about-content .txt2{
   color:green;
   font-size: 50px;
-  
  }
+
  #about .about-content p
  {
-    /* width: 1360px;
-    height: 60px; */
   color:white;
  }
  
@@ -116,17 +106,202 @@ background-repeat: no-repeat;
     padding:16px 12px ;
     border-radius: 5px;
     background-color:green;
-    color:white ; 
-   
+    color:white ;   
  }
 
  section .btn1{
     padding:16px 12px ;
     border-radius: 5px;
-    background-color:white;
-    color:green ;
+    background-color:green; 
+     outline-style: none;
+     color:white ;  
+ }
+
+ #apps1{
+     width:100%;
+  
+    margin: 0 auto;
+    text-align: center;
+    /* background-color:red; */
+    padding:  0px    120px 120px 120px;
+   
+ }
+
+ #apps1 .txt1{
+   width: 1360px;
+   height: 152px;
+   
+   padding:  120px 120px 120px 0px;
+ }
+
+ #apps1 .txt1 h1{
+   height:36px ;
+   font-size:xx-large;
+   font-weight: bolder;
+   color: black;
+ }
+
+ #apps1 .txt1 h6{
+   height: 132px;
+   font-size:large;
+   font-weight: 100;
+    color: gray;
+ }
+
+ #frames{
+    width: 100%;
+    height: 300px;
+     display: flex;
+    /* list-style-type: none; */
+     gap:51px; 
+    align-items: center;
+    background-color: rgb(248, 245, 245);
+     justify-content: space-between;
+    
+ }
+ #frames .frame img{
+    width: 32px;
+    height: 32px;
+    padding: 3px 2px 3px 2px;
+   border-radius: 50%;
+    background-color: red;
+     
+ }
+ #frames .frame{
+    width: 322px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     padding: 14px 13px;
+     gap:16px;
+    /* border: 120px 24px  
+     border-color: blue;  */
+ }
+
+  #frames .frame h5{
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 29px;
+   gap:0%;
+   text-align: center;
+  }
+
+ #frames .frame p{
+   
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   gap:0%;
+   text-align: center;
+   color: grey;
+ }
+ #apps2 .pic img{
+    max-width: 585px;
+ }
+ 
+ #apps2{
+    width: 1600;
+    height: 840px;
+    display:flex;
+    flex-direction: row;
+    gap:60px;
+    /* padding:120px ; */
+    padding: 60px 136px 60px 136px ;
+ }
+ #apps2 .txt{
+width: 700px;
+height:396px;
+padding-top:102px;
+ }
+ #apps2 .txt .p1{
+   color: green;
+   width: auto 700px;
+   height: auto 20px;
+   font-weight: 400;
+ }
+#apps2 .txt .h1
+ {
+   height:36px ;
+   font-size:xx-large;
+   font-weight: bolder;
+   color: black;
+ }
+
+ #apps2 .txt .x1{
+   height: 132px;
+   font-size:large;
+   font-weight: 100;
+   color: gray;
+ }
+ #apps2 .txt  .lst
+ {
+   height: 132px;
+   font-size:large;
+   font-weight: bold;
+   color: black; 
     
  }
 
+  #apps2 .txt  .lst img
+  {
+  display:felx;
+  text-align: justify;
+  }
 
+#apps3 {
+  width: 1600px;
+height:504px;
+padding:0  120px;
+background-color: rgb(250, 246, 246);
+}
 
+  #apps3 .txt3 .t1 {
+   font-size:xx-large;
+   font-weight: bolder;
+   text-align: center;
+   /* color: black; */
+   padding: 80px 40px 40px;
+   
+  }
+
+   #apps3 .txt3 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+   }
+
+   #apps3 .txt3 h6{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+   }
+
+   #apps3 .txt3 .t2{
+   
+   font-weight: bolder;
+   text-align: center;
+   align-items: center;
+    color: gray;
+  }
+
+   #apps3 .txt3 .t2 .btn2
+   {
+    /* width: 194px;
+    height: 52px; */
+    /* padding: 0 543px 36px 543px; */
+padding: 12px 16px 12px 16px;
+ justify-content: center;
+ align-items: center;
+    border-radius: 1px;
+    background-color:green;
+    color: white;
+    font-weight: 700;
+ }
+   
+ 
+        
