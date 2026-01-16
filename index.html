@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-1</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="font-open-sans">
+<body class="inter">
     <header>
         <nav class="nevbar">
             <div class="logo">
@@ -31,22 +34,24 @@
                 <li><button class="btn">Get Early Access</button></li>
             </div>
         </nav>
+
         <section id="about">
             <div class="about-content">
-                <ul>
-               <li> <button  class="early">Early Access Now Open</button> </li>
-                </ul>
-                <h1 class="txt1">Structured Thinking,</h1>
-                <h1  class="txt2">Not Just Note-Taking.</h1>
-                <p>A private space to store notes, links, and learning summaries — designed to
+               <button class="early" ><img src="assets/Group 5.png">Early Access Now Open></button>
+                <div class="benner-heading">
+                <h1 class="benner-heading1">Structured Thinking,</h1>
+                <h1 class="banner-heading2" >Not Just Note-Taking.</h1>
+                <p>A private space to store notes, links, and learning summaries — designed to </br>
 help you think clearly, connect ideas, and turn learning into long-term knowledge</p>
-      <div>
+      <div class="about-btn">
         <button class="btn">Start Building Your Vault
             <img src="assets/ArrowRight.png">
         </button>
         <button class="btn1"><i class="fa-solid fa-play"></i>See How It Works
                
         </button>
+                </div>
+                
       </div>      
 
       </div>
@@ -95,15 +100,15 @@ help you think clearly, connect ideas, and turn learning into long-term knowledg
                 It's a thinking environment where every note, link, and summary
                 becomes part of an interconnected web of understanding.</p>
                 <ul class="lst">
-                     <img src="assets/CheckCircle.png"><li >Capture ideas with structure built-in from day one</li>
-                   <img src="assets/CheckCircle.png"> <li>Connect related concepts automatically as you write</li>
-                   <img src="assets/CheckCircle.png">  <li>Build lasting knowledge through reflection prompts</li>
-                    <img src="assets/CheckCircle.png"> <li>Find anything instantly with semantic search</li>
+                   <li><img src="assets/CheckCircle.png">Capture ideas with structure built-in from day one</li>
+                  <li><img src="assets/CheckCircle.png">Connect related concepts automatically as you write</li>
+                  <li><img src="assets/CheckCircle.png">Build lasting knowledge through reflection prompts</li>
+                  <li><img src="assets/CheckCircle.png">Find anything instantly with semantic search</li>
                 </ul>
         </div>
     </section>
     </main>
-    <aside id="apps3">
+ <div id="apps3">
     <section class="txt3">
         <div class="t1">
         <h1>Ready to think more clearly?</h1>
@@ -111,18 +116,28 @@ help you think clearly, connect ideas, and turn learning into long-term knowledg
         Start free, no credit card required.</h6>
         </div>
         <div class="t2">
-            <div><button class="btn2">Get Early Access<img src="assets/ArrowRight.png"></button></div>
-        <div>
+
+          
+            <button class="btn2">
+                <div class="get">
+                    <p>Get Early Access</p>
+                    <img src="assets/ArrowRight.png">
+                </div>
+              
+                </button>
+            </div>
+       
             <h6>Free during early access • No credit card needed</h6>
         </div>
-        </div>
+     </div>
     </section>
-    </aside>
+</div>
     <footer>
         <section class="footer-container">
             <div class="social">
+                <div>
                 <img src="assets/logo-footer.png" alt="">
-              
+                  </div>
                 <div class="icon">
                     <p>Social Links</p>
                     <a ><i class="fa-brands fa-x-twitter"></i></a>
@@ -131,7 +146,9 @@ help you think clearly, connect ideas, and turn learning into long-term knowledg
                 </div>
             </div>
             <hr>
-            <p>© 2026 Personal Knowledge Vault. All rights reserved.</p>
+            <div>
+                <p class="ft">© 2026 Personal Knowledge Vault. All rights reserved.</p>
+            </div>
         </section>
     </footer>
 </body>
